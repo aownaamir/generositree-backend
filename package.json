@@ -1,0 +1,23 @@
+{
+  "name": "generositree-backend",
+  "version": "1.0.0",
+  "description": "community service project backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "gt"
+  ],
+  "author": "Aown Aamir",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.4",
+    "morgan": "^1.10.0",
+    "slugify": "^1.6.6"
+  }
+}
